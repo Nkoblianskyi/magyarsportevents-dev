@@ -62,7 +62,7 @@ export function DisclaimerBanner({ className, variant = 'page' }: DisclaimerBann
         )}
       >
         <div className="px-5 py-4">
-          <p className="text-base leading-relaxed font-normal">
+          <p className="text-2xl leading-relaxed font-normal">
             <strong className="font-bold text-primary">Fontos tájékoztatás:</strong>
             {' '}Ez az oldal <strong className="font-bold">másodlagos jegyközvetítő platform</strong>,
             amely <strong className="font-bold">viszonteladásra kínált jegyeket</strong> kínál.

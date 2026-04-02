@@ -74,9 +74,9 @@ export function EventCard({ event, className, featured = false }: EventCardProps
             <ArrowRight className="size-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
           </div>
           {/* Inline disclaimer */}
-          <div className="mt-2 flex items-start gap-1.5 text-xs text-muted-foreground bg-muted rounded px-2 py-1.5">
-            <AlertTriangle className="size-3 shrink-0 mt-0.5 text-primary" aria-hidden="true" />
-            <span>Nem értékesítünk jegyeket. Árak magasabbak lehetnek a névértéknél.</span>
+          <div className="mt-2 flex items-start gap-1.5 text-xl text-muted-foreground bg-muted rounded px-2 py-1.5">
+            <AlertTriangle className="size-3 shrink-0 mt-0.5 text-red-500" aria-hidden="true" />
+            <span className="text-red-500">Nem értékesítünk jegyeket. Árak magasabbak lehetnek a névértéknél.</span>
           </div>
         </div>
       </div>

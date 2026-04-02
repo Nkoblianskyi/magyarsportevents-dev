@@ -116,7 +116,7 @@ export default async function EventDetailPage({ params }: Props) {
                   </div>
 
                   {/* Disclaimer above table — same font size as body text */}
-                  <div className="mb-4 bg-primary/10 border border-primary/40 rounded-lg px-4 py-3 text-sm font-semibold text-foreground leading-relaxed flex items-start gap-3">
+                  <div className="mb-4 bg-primary/10 border border-primary/40 rounded-lg px-4 py-3 text-xl font-semibold text-foreground leading-relaxed flex items-start gap-3">
                     <AlertTriangle className="size-4 shrink-0 mt-0.5 text-primary" aria-hidden="true" />
                     <span>
                       <strong className="text-primary">Fontos:</strong> Ez az oldal másodlagos piaci összehasonlító platform és <strong>nem értékesít jegyeket</strong>. Az árak a kereslet-kínálat alapján alakulnak és <strong>magasabbak lehetnek a névértéknél</strong>. A vásárlás kizárólag a partner weboldalán lehetséges.
