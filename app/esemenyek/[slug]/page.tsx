@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const event = getEventBySlug(slug)
   if (!event) return { title: 'Esemény nem található' }
   return {
-    title: `${event.title} — Jegy Ár Összehasonlítás | MagyarSportEvents`,
+    title: `${event.title} - Jegy Ár Összehasonlítás | MagyarSportEvents`,
     description: `Hasonlítsd össze a ${event.title} (${event.dateLabel}, ${event.venue}) jegyárait. Másodlagos piaci összehasonlítás — az árak magasabbak lehetnek a névértéknél.`,
   }
 }

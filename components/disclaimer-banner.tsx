@@ -35,12 +35,12 @@ export function DisclaimerBanner({ className, variant = 'page' }: DisclaimerBann
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-start sm:items-stretch gap-0 sm:gap-0">
           {/* Left label — same line height as body */}
           <div className="shrink-0 bg-primary-foreground/15 sm:border-r border-primary-foreground/25 flex items-center px-4 py-2 sm:py-0 sm:mr-5">
-            <span className="font-display font-black text-base leading-normal tracking-wide uppercase whitespace-nowrap">
+            <span className="font-display font-black text-lg leading-normal tracking-wide uppercase whitespace-nowrap">
               Fontos &mdash;
             </span>
           </div>
           {/* Disclaimer text — text-base matches body, always fully visible */}
-          <p className="text-base leading-relaxed py-2 font-normal">
+          <p className="text-lg leading-relaxed py-2 font-normal">
             <strong className="font-bold">Ez az oldal másodlagos jegyközvetítő platform</strong>,
             amely <strong className="font-bold">viszonteladásra kínált jegyeket</strong> kínál.
             {' '}Nem állunk kapcsolatban egyetlen sportszövetséggel, csapattal vagy hivatalos jegyirodával sem.

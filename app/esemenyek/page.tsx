@@ -109,7 +109,7 @@ export default function EsemenyekPage() {
               <p className="text-sm text-muted-foreground">
                 <span className="text-foreground font-semibold">{filtered.length}</span> esemény található
                 {sport !== 'Összes' && (
-                  <> — <span className="text-primary font-medium">{sport}</span></>
+                  <> - <span className="text-primary font-medium">{sport}</span></>
                 )}
               </p>
               {hasActiveFilters && (

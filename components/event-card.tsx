@@ -67,7 +67,7 @@ export function EventCard({ event, className, featured = false }: EventCardProps
               <p className="font-display font-bold text-xl text-primary leading-none">
                 {formatPrice(event.priceFrom)}
                 <span className="text-muted-foreground font-sans font-normal text-sm ml-1">
-                  — {formatPrice(event.priceTo)}
+                  - {formatPrice(event.priceTo)}
                 </span>
               </p>
             </div>

@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Adatvédelmi irányelvek | MagyarSportEvents',
-  description: 'A MagyarSportEvents.com adatvédelmi irányelvei — hogyan kezeljük az adatokat, milyen adatokat gyűjtünk és hogyan védjük azokat.',
+  description: 'A MagyarSportEvents.com adatvédelmi irányelvei - hogyan kezeljük az adatokat, milyen adatokat gyűjtünk és hogyan védjük azokat.',
 }
 
 export default function AdatvedelemPage() {
@@ -22,7 +22,7 @@ export default function AdatvedelemPage() {
               ADATVÉDELMI IRÁNYELVEK
             </h1>
             <p className="text-muted-foreground text-sm">
-              Utolsó frissítés: 2026. január 1.
+              Utolsó frissítés: 2026.
             </p>
           </div>
         </section>
@@ -45,7 +45,7 @@ export default function AdatvedelemPage() {
                   A MagyarSportEvents.com egy összehasonlító platform, amely <strong className="text-foreground">nem értékesít jegyeket és nem gyűjt fizetési adatokat</strong>. Az oldalon az alábbi korlátozottan kezelt adatok merülnek fel:
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-2">
-                  <li><strong className="text-foreground">Technikai adatok:</strong> IP-cím, böngészőtípus, az oldal meglátogatásának időpontja — a szerver normál működéséhez szükséges log adatok.</li>
+                  <li><strong className="text-foreground">Technikai adatok:</strong> IP-cím, böngészőtípus, az oldal meglátogatásának időpontja - a szerver normál működéséhez szükséges log adatok.</li>
                   <li><strong className="text-foreground">Analitikai adatok:</strong> Anonimizált látogatói statisztikák (pl. melyik oldalakat látogatják, honnan érkeznek látogatók).</li>
                   <li><strong className="text-foreground">Sütik (cookie-k):</strong> Részletek a Süti szabályzatban találhatók.</li>
                 </ul>

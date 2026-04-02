@@ -36,7 +36,7 @@ export const PARTNERS: Partner[] = [
   { name: 'Viagogo', url: 'https://www.viagogo.com', slug: 'viagogo' },
   { name: 'Ticketmaster', url: 'https://www.ticketmaster.com', slug: 'ticketmaster' },
   { name: 'Jegymester', url: 'https://www.jegymester.hu', slug: 'jegymester' },
-  { name: 'Interticket', url: 'https://www.interticket.com', slug: 'interticket' },
+
 ]
 
 export const EVENTS: SportEvent[] = [
@@ -52,7 +52,7 @@ export const EVENTS: SportEvent[] = [
     priceFrom: 45000,
     priceTo: 380000,
     featured: true,
-    description: 'A világ legjobb Forma-1-es versenyzői ismét Magyarországon! A Hungaroringen rendezett Magyar Nagydíj az egyik legfelkapottabb esemény a naptárban. Háromnapos élmény — szabadedzés, időmérő és a főverseny.',
+    description: 'A világ legjobb Forma-1-es versenyzői ismét Magyarországon! A Hungaroringen rendezett Magyar Nagydíj az egyik legfelkapottabb esemény a naptárban. Háromnapos élmény - szabadedzés, időmérő és a főverseny.',
     offers: [
       { partner: PARTNERS[0], priceFrom: 52000, priceTo: 320000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[1], priceFrom: 48000, priceTo: 380000, available: true, url: 'https://www.axs.com' },
@@ -63,7 +63,7 @@ export const EVENTS: SportEvent[] = [
   },
   {
     slug: 'ferencvaros-bajnokok-ligaja-2026',
-    title: 'Ferencváros TC — Bajnokok Ligája Csoportkör',
+    title: 'Ferencváros TC - Bajnokok Ligája Csoportkör',
     sport: 'Labdarúgás',
     venue: 'Groupama Aréna',
     city: 'Budapest',
@@ -77,14 +77,14 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 9000, priceTo: 75000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 8500, priceTo: 65000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 9500, priceTo: 70000, available: true, url: 'https://www.interticket.com' },
+  
       { partner: PARTNERS[2], priceFrom: 12000, priceTo: 85000, available: true, url: 'https://www.stubhub.com' },
       { partner: PARTNERS[3], priceFrom: 11000, priceTo: 80000, available: true, url: 'https://www.viagogo.com' },
     ],
   },
   {
     slug: 'atletika-diamond-league-budapest-2026',
-    title: 'Atlétikai Diamond League — Budapest 2026',
+    title: 'Atlétikai Diamond League - Budapest 2026',
     sport: 'Atlétika',
     venue: 'Nemzeti Atlétikai Központ',
     city: 'Budapest',
@@ -94,11 +94,11 @@ export const EVENTS: SportEvent[] = [
     priceFrom: 5000,
     priceTo: 45000,
     featured: true,
-    description: 'A világ legjobb atlétái gyűlnek össze Budapesten a Diamond League sorozat keretében. Futás, ugrás, dobás — minden eseményen a legjobbak versenyeznek a pontokért és a világrekordokért.',
+    description: 'A világ legjobb atlétái gyűlnek össze Budapesten a Diamond League sorozat keretében. Futás, ugrás, dobás - minden eseményen a legjobbak versenyeznek a pontokért és a világrekordokért.',
     offers: [
       { partner: PARTNERS[0], priceFrom: 5000, priceTo: 35000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 5500, priceTo: 38000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 5200, priceTo: 36000, available: true, url: 'https://www.interticket.com' },
+      
       { partner: PARTNERS[2], priceFrom: 6500, priceTo: 45000, available: true, url: 'https://www.stubhub.com' },
     ],
   },
@@ -109,7 +109,7 @@ export const EVENTS: SportEvent[] = [
     venue: 'Magyar Tenisz Centrum',
     city: 'Budapest',
     date: '2026-07-12',
-    dateLabel: '2026. július 12–19.',
+    dateLabel: '2026. július 12-19.',
     image: '/images/events/tennis-budapest-open.jpg',
     priceFrom: 3500,
     priceTo: 28000,
@@ -117,13 +117,13 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 3500, priceTo: 22000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 4000, priceTo: 24000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 3800, priceTo: 23000, available: true, url: 'https://www.interticket.com' },
+     
       { partner: PARTNERS[2], priceFrom: 5000, priceTo: 28000, available: true, url: 'https://www.stubhub.com' },
     ],
   },
   {
     slug: 'kosarlabda-falco-kb-eurocup-2026',
-    title: 'Falco KC — EuroCup Kosárlabda',
+    title: 'Falco KC - EuroCup Kosárlabda',
     sport: 'Kosárlabda',
     venue: 'Savaria Aréna',
     city: 'Szombathely',
@@ -136,7 +136,7 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 4000, priceTo: 18000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 4500, priceTo: 20000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 4200, priceTo: 19000, available: true, url: 'https://www.interticket.com' },
+      
       { partner: PARTNERS[3], priceFrom: 5000, priceTo: 22000, available: true, url: 'https://www.viagogo.com' },
     ],
   },
@@ -155,13 +155,13 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 4500, priceTo: 28000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 5000, priceTo: 30000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 4800, priceTo: 29000, available: true, url: 'https://www.interticket.com' },
+      
       { partner: PARTNERS[2], priceFrom: 6000, priceTo: 35000, available: true, url: 'https://www.stubhub.com' },
     ],
   },
   {
     slug: 'kezilabda-veszprem-champions-league-2026',
-    title: 'Veszprém HC — EHF Bajnokok Ligája',
+    title: 'Veszprém HC - EHF Bajnokok Ligája',
     sport: 'Kézilabda',
     venue: 'Veszprém Aréna',
     city: 'Veszprém',
@@ -174,7 +174,7 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 5500, priceTo: 32000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 6000, priceTo: 35000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 5800, priceTo: 33000, available: true, url: 'https://www.interticket.com' },
+    
       { partner: PARTNERS[3], priceFrom: 7000, priceTo: 40000, available: true, url: 'https://www.viagogo.com' },
     ],
   },
@@ -193,13 +193,12 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 3000, priceTo: 15000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 3500, priceTo: 16000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 3200, priceTo: 15500, available: true, url: 'https://www.interticket.com' },
       { partner: PARTNERS[3], priceFrom: 4000, priceTo: 18000, available: true, url: 'https://www.viagogo.com' },
     ],
   },
   {
     slug: 'motogp-brno-2026',
-    title: 'MotoGP — Cseh Nagydíj Brno 2026',
+    title: 'MotoGP - Cseh Nagydíj Brno 2026',
     sport: 'Motorsport',
     venue: 'Automotodrom Brno',
     city: 'Brno, Csehország',
@@ -218,7 +217,7 @@ export const EVENTS: SportEvent[] = [
   },
   {
     slug: 'bokszgala-budapest-2026',
-    title: 'Prémium Bokszgála — Budapest 2026',
+    title: 'Prémium Bokszgála - Budapest 2026',
     sport: 'Boksz',
     venue: 'Budapest Sportaréna',
     city: 'Budapest',
@@ -250,13 +249,13 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 3500, priceTo: 16000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 4000, priceTo: 18000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 3800, priceTo: 17000, available: true, url: 'https://www.interticket.com' },
+     
       { partner: PARTNERS[3], priceFrom: 5000, priceTo: 20000, available: true, url: 'https://www.viagogo.com' },
     ],
   },
   {
     slug: 'kerekpar-tour-de-hongrie-2026',
-    title: 'Tour de Hongrie 2026 — Kerékpáros Körverseny',
+    title: 'Tour de Hongrie 2026 - Kerékpáros Körverseny',
     sport: 'Kerékpározás',
     venue: 'Több helyszín',
     city: 'Magyarország',
@@ -269,12 +268,12 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 2000, priceTo: 10000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 2500, priceTo: 12000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 2200, priceTo: 11000, available: true, url: 'https://www.interticket.com' },
+     
     ],
   },
   {
     slug: 'vizilabda-eger-vilagliga-2026',
-    title: 'Egri Vízilabda Akadémia — VL Döntő',
+    title: 'Egri Vízilabda Akadémia - VL Döntő',
     sport: 'Vízilabda',
     venue: 'Kemény Ferenc Uszoda',
     city: 'Eger',
@@ -287,13 +286,13 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 2500, priceTo: 12000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 3000, priceTo: 13000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 2800, priceTo: 12500, available: true, url: 'https://www.interticket.com' },
+      
       { partner: PARTNERS[3], priceFrom: 3500, priceTo: 15000, available: true, url: 'https://www.viagogo.com' },
     ],
   },
   {
     slug: 'labdarugas-magyar-eb-selejtezo-2026',
-    title: 'Magyar Labdarúgó Válogatott — EB Selejtező',
+    title: 'Magyar Labdarúgó Válogatott - EB Selejtező',
     sport: 'Labdarúgás',
     venue: 'Puskás Aréna',
     city: 'Budapest',
@@ -307,14 +306,14 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 6000, priceTo: 45000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 6500, priceTo: 48000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 6200, priceTo: 46000, available: true, url: 'https://www.interticket.com' },
+
       { partner: PARTNERS[2], priceFrom: 9000, priceTo: 55000, available: true, url: 'https://www.stubhub.com' },
       { partner: PARTNERS[3], priceFrom: 8500, priceTo: 52000, available: true, url: 'https://www.viagogo.com' },
     ],
   },
   {
     slug: 'esports-bajnoksag-budapest-2026',
-    title: 'CEE Esports Championship — Budapest 2026',
+    title: 'CEE Esports Championship - Budapest 2026',
     sport: 'Esport',
     venue: 'MVM Dome',
     city: 'Budapest',
@@ -333,7 +332,7 @@ export const EVENTS: SportEvent[] = [
   },
   {
     slug: 'vivás-vilagkupa-budapest-2026',
-    title: 'Vívás Világkupa — Budapest 2026',
+    title: 'Vívás Világkupa - Budapest 2026',
     sport: 'Vívás',
     venue: 'Vasas Sport Club',
     city: 'Budapest',
@@ -346,7 +345,7 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 2000, priceTo: 9000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 2500, priceTo: 10000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 2200, priceTo: 9500, available: true, url: 'https://www.interticket.com' },
+    
       { partner: PARTNERS[3], priceFrom: 3000, priceTo: 12000, available: true, url: 'https://www.viagogo.com' },
     ],
   },
@@ -365,7 +364,7 @@ export const EVENTS: SportEvent[] = [
     offers: [
       { partner: PARTNERS[0], priceFrom: 2500, priceTo: 11000, available: true, url: 'https://www.eventim.hu' },
       { partner: PARTNERS[5], priceFrom: 3000, priceTo: 12000, available: true, url: 'https://www.jegymester.hu' },
-      { partner: PARTNERS[6], priceFrom: 2800, priceTo: 11500, available: true, url: 'https://www.interticket.com' },
+    
       { partner: PARTNERS[3], priceFrom: 3500, priceTo: 14000, available: true, url: 'https://www.viagogo.com' },
     ],
   },

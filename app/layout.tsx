@@ -15,13 +15,13 @@ const barlowCondensed = Barlow_Condensed({
 })
 
 export const metadata: Metadata = {
-  title: 'MagyarSportEvents — Sportjegy Ár Összehasonlítás',
+  title: 'MagyarSportEvents - Sportjegy Ár Összehasonlítás',
   description:
-    'Hasonlítsd össze a sportesemény jegyek árait Magyarországon és Európában. Nem értékesítünk jegyeket — kizárólag árak összehasonlítása partnerektől.',
+    'Hasonlítsd össze a sportesemény jegyek árait Magyarországon és Európában. Nem értékesítünk jegyeket - kizárólag árak összehasonlítása partnerektől.',
   generator: 'v0.app',
   keywords: ['sportjegy', 'árak összehasonlítása', 'Magyar sport', 'esemény jegy', 'Magyarország'],
   openGraph: {
-    title: 'MagyarSportEvents — Sportjegy Ár Összehasonlítás',
+    title: 'MagyarSportEvents - Sportjegy Ár Összehasonlítás',
     description: 'Hasonlítsd össze a sportesemény jegyek árait Magyarországon és Európában.',
     type: 'website',
     locale: 'hu_HU',

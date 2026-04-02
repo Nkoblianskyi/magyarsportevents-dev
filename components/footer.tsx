@@ -30,7 +30,7 @@ export function Footer() {
               másodlagos jegyközvetítő összehasonlító platform.{' '}
               <strong>Nem értékesítünk jegyeket és nem gyűjtünk fizetési adatokat.</strong>{' '}
               Kizárólag partner oldalak árait hasonlítjuk össze. Az árak magasabbak lehetnek
-              a névértéknél — vásárlás előtt ellenőrizd az aktuális árat a partner weboldalán.
+              a névértéknél - vásárlás előtt ellenőrizd az aktuális árat a partner weboldalán.
             </p>
           </div>
         </div>

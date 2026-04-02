@@ -24,19 +24,19 @@ export function HeroSection() {
           </div>
 
           <h1 className="font-display font-black leading-[0.92] tracking-tight text-balance mb-8">
-            <span className="block text-[clamp(3rem,7vw,6.5rem)] text-foreground">TALÁLD</span>
-            <span className="block text-[clamp(3rem,7vw,6.5rem)] text-foreground">MEG A</span>
+            <span className="block text-7xl text-foreground">TALÁLD</span>
+            <span className="block text-7xl text-foreground">MEG A</span>
             <span
-              className="block text-[clamp(3rem,8.5vw,8rem)]"
+              className="block text-7xl"
               style={{ WebkitTextStroke: '2px var(--color-primary)', color: 'transparent' }}
             >
               LEGJOBB
             </span>
-            <span className="block text-[clamp(3rem,8.5vw,8rem)] text-primary">ÁRAT</span>
+            <span className="block text-7xl text-primary">ÁRAT</span>
           </h1>
 
-          <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-10 max-w-md">
-            7 ellenőrzött partner árát egy helyen. Nem adunk el jegyeket —
+          <p className="text-muted-foreground text-base md:text-sm leading-relaxed mb-10 max-w-md">
+            7 ellenőrzött partner árát egy helyen. Nem adunk el jegyeket -
             csak megmutatjuk, hol érdemes vásárolni.
           </p>
 
@@ -88,7 +88,7 @@ export function HeroSection() {
 
           <div className="absolute top-10 right-10 bg-primary/90 backdrop-blur rounded-xl px-4 py-3 max-w-[220px] shadow-2xl">
             <p className="text-primary-foreground font-bold text-xs leading-snug">
-              Másodlagos piac — az árak meghaladhatják a névértéket
+              Másodlagos piac - az árak meghaladhatják a névértéket
             </p>
           </div>
         </div>

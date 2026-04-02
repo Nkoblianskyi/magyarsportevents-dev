@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Felhasználási feltételek | MagyarSportEvents',
-  description: 'A MagyarSportEvents.com felhasználási feltételei — az oldal használatának szabályai és korlátozásai.',
+  description: 'A MagyarSportEvents.com felhasználási feltételei - az oldal használatának szabályai és korlátozásai.',
 }
 
 export default function FelhasznalasiPage() {
@@ -22,7 +22,7 @@ export default function FelhasznalasiPage() {
               FELHASZNÁLÁSI FELTÉTELEK
             </h1>
             <p className="text-muted-foreground text-sm">
-              Utolsó frissítés: 2026. január 1.
+              Utolsó frissítés: 2026.
             </p>
           </div>
         </section>

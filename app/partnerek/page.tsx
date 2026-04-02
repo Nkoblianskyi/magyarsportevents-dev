@@ -35,10 +35,6 @@ const PARTNER_DETAILS: Record<string, { description: string; country: string }> 
     description: 'A Jegymester a magyar sportesemények és kulturális rendezvények egyik vezető jegyértékesítője. Kiemelkedő lefedettséggel rendelkezik Magyarországon.',
     country: 'Magyarország',
   },
-  interticket: {
-    description: 'Az Interticket Magyarország egyik legnagyobb online jegyértékesítő platformja. Sportesemények, koncertek és fesztiválok széles kínálatával.',
-    country: 'Magyarország',
-  },
 }
 
 export default function PartnerekPage() {
