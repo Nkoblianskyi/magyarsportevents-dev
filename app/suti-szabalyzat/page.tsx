@@ -46,7 +46,7 @@ export default function SutiSzabályzatPage() {
               SÜTI SZABÁLYZAT
             </h1>
             <p className="text-muted-foreground text-sm">
-              Utolsó frissítés: 2026. január 1.
+              Utolsó frissítés: 2026.
             </p>
           </div>
         </section>
