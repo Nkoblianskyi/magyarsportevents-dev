@@ -100,7 +100,7 @@ export function HeroSection() {
           <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-border">
             {[
               { value: '17+', label: 'Sportesemény', sub: '2026-os szezonban' },
-              { value: '7', label: 'Ellenőrzött partner', sub: 'Európai piacokon' },
+              { value: '6+', label: 'Ellenőrzött partner', sub: 'Európai piacokon' },
               { value: '0 Ft', label: 'Közvetítői díj', sub: 'Ingyenesen böngészhetsz' },
               { value: '100%', label: 'Adatmentes', sub: 'Nincs adatgyűjtés' },
             ].map((stat) => (
